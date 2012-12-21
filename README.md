@@ -30,7 +30,7 @@ Usage
 
 min_delegator.py
 ----------------
-The minimal delegator allows the subscribe to an identifier in order to be adressable by other AL-Fi devices. Therefore, start the delegator with "python delegator.py", type :"rID you want to add" (without the quotes) and hit "Enter". "r" stands for register a new identifier. To delete a subscription, just type "dID you want to delete" and hit "Enter".
+The minimal delegator allows to subscribe to an identifier in order to be adressable by other AL-Fi devices. Therefore, start the delegator with "python delegator.py", type :"rID you want to add" (without the quotes) and hit "Enter". "r" stands for register a new identifier. To delete a subscription, just type "dID you want to delete" and hit "Enter".
 Typing "q" and hitting "Enter" quits the delegator after a few seconds. Please note, that the subscribed identifiers stay set in the driver.
 
 Once subscribed to an iddentifier, a device is now capable of receiving messages. To test that, start another AL-Fi device and use the chunkburster.py
