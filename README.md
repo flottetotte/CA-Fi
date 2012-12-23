@@ -5,8 +5,8 @@ Concurrent-Association-free Wireless Networking, allowing truly spontaneous and 
 
 What is this ?
 ==============
-AL-Fi is a communication scheme accounting for both network- and encounter-based ad-hoc networking as well as hybrid approaches. It allows devices to communicate without assocations and over the borders of their current association.
-Therefore, small message - chunks are send on different channels in order to disseminate the messages as good as possible. AL-Fi contains multi-hop communication, a flexible addressing scheme that does not need a central management instance and message aggregation on intermediate devices also running the driver. 
+CA-Fi is a communication scheme accounting for both network- and encounter-based ad-hoc networking as well as hybrid approaches. It allows devices to communicate without assocations and over the borders of their current association.
+Therefore, small message - chunks are send on different channels in order to disseminate the messages as good as possible. CA-Fi contains multi-hop communication, a flexible addressing scheme that does not need a central management instance and message aggregation on intermediate devices also running the driver. 
 The basis for all of this is the well known compat wireless driver (see: http://linuxwireless.org/).
 
 This software comes without any form of warranty !
@@ -26,14 +26,14 @@ Installation
 
 Usage
 =====
-- After installation you can try out the basic features of AL-Fi with the small python scripts provided in the folder netlink, which are explained in the following:
+- After installation you can try out the basic features of CA-Fi with the small python scripts provided in the folder netlink, which are explained in the following:
 
 min_delegator.py
 ----------------
-The minimal delegator allows to subscribe to an identifier in order to be adressable by other AL-Fi devices. Therefore, start the delegator with "python delegator.py", type :"rID you want to add" (without the quotes) and hit "Enter". "r" stands for register a new identifier. To delete a subscription, just type "dID you want to delete" and hit "Enter".
+The minimal delegator allows to subscribe to an identifier in order to be adressable by other CA-Fi devices. Therefore, start the delegator with "python delegator.py", type :"rID you want to add" (without the quotes) and hit "Enter". "r" stands for register a new identifier. To delete a subscription, just type "dID you want to delete" and hit "Enter".
 Typing "q" and hitting "Enter" quits the delegator after a few seconds. Please note, that the subscribed identifiers stay set in the driver.
 
-Once subscribed to an iddentifier, a device is now capable of receiving messages. To test that, start another AL-Fi device and use the chunkburster.py
+Once subscribed to an iddentifier, a device is now capable of receiving messages. To test that, start another CA-Fi device and use the chunkburster.py
 
 chunkburster.py
 ---------------
