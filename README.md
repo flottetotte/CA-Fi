@@ -37,5 +37,5 @@ Once subscribed to an iddentifier, a device is now capable of receiving messages
 
 chunkburster.py
 ---------------
-The chunkburster.py allows to send chunks to a specific identifier. Just run "python chunkburster.py CHUNKCOUNT ID", where CHUNKCOUNT is the number of chunks to send (size is randomly choosen) and ID is the identifier you want to send to. If everything worked out fine, the other AL-Fi device registered to the identifier you have entered should display the content of the generated chunks (which is also random). 
+The chunkburster.py allows to send chunks to a specific identifier. Just run "python chunkburster.py CHUNKCOUNT ID", where CHUNKCOUNT is the number of chunks to send (size is randomly choosen) and ID is the identifier you want to send to. If everything worked out fine, the other CA-Fi device registered to the identifier you have entered should display the content of the generated chunks (which is also random). 
 
